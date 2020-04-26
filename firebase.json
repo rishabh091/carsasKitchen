@@ -1,16 +1,10 @@
 {
   "hosting": {
-    "public": "dist/carsasKitchen",
+    "public": "/dist/carsasKitchen",
     "ignore": [
       "firebase.json",
       "**/.*",
       "**/node_modules/**"
-    ],
-    "rewrites": [
-      {
-        "source": "**",
-        "destination": "/index.html"
-      }
     ]
   }
 }
