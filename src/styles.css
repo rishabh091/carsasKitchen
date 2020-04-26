@@ -9,8 +9,8 @@ body{
 :root{
     --cinzel: 'Cinzel', serif;
     
-    --super-dark: #313131;
+    --super-dark: #ecfbfc;
     --dark: #f4f3f3;
     --medium: #dfdfdf;
-    --contrast-to-dark: #D4AF37;
+    --contrast: #D4AF37;
 }
