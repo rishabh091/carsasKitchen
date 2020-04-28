@@ -1,0 +1,28 @@
+.heading-div {
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: #ccedd2;
+}
+.heading {
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  word-spacing: 4px;
+}
+.second-heading{
+    font-size: 2.5rem;
+}
+.img-size{
+    height: 100%;
+}
+.bg-cus-dark{
+    background: var(--dark);
+}
+.rem-p8{
+    font-size: 0.8rem;
+}
+.width-100{
+    width: 100%;
+}
