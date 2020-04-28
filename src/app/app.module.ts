@@ -7,7 +7,8 @@ import { HttpClientModule } from '@angular/common/http';
 import { HomeComponent } from './home/home.component';
 import { FooterComponent } from './footer/footer.component';
 import { MenuComponent } from './menu/menu.component';
-import { NavbarComponent } from './navbar/navbar.component'
+import { NavbarComponent } from './navbar/navbar.component';
+import { GroupDinningsComponent } from './group-dinnings/group-dinnings.component'
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { NavbarComponent } from './navbar/navbar.component'
     HomeComponent,
     FooterComponent,
     MenuComponent,
-    NavbarComponent
+    NavbarComponent,
+    GroupDinningsComponent
   ],
   imports: [
     BrowserModule,

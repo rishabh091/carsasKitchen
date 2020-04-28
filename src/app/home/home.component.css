@@ -69,7 +69,7 @@
   padding: 0px;
 }
 .height-90 {
-  height: 95vh;
+  height: 70vh;
 }
 .cus-heading-without-font {
   font-size: 2rem;
@@ -89,5 +89,8 @@
     font-weight: bolder;
     font-family: var(--cinzel);
     text-transform: uppercase;
+  }
+  .height-90 {
+    height: 100%;
   }
 }
