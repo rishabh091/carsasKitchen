@@ -8,9 +8,11 @@ export class NavbarService {
   constructor() { }
 
   navbar(){
+    let navbar=document.getElementById('navbarId');
+    navbar.style.display="none";
+    
     window.addEventListener('scroll',()=>{
       let scroll=window.scrollY;
-      let navbar=document.getElementById('navbarId');
 
       if(scroll > 680){
         navbar.style.display="flex";

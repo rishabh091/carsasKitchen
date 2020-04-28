@@ -1,0 +1,34 @@
+.heading-div {
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: var(--contrast);
+}
+.heading{
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    word-spacing: 4px;
+}
+.height-100{
+    height: 100vh;
+}
+.bg-cus-dark{
+    background: var(--dark);
+}
+.menu-heading{
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    word-spacing: 10px;
+}
+.dish-name{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    word-spacing: 3px;
+    font-size: 0.8rem;
+}
+.dish-desc{
+    font-size: 0.8rem;
+}
